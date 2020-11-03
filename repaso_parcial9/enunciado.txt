@@ -1,0 +1,23 @@
+Una empresa distribuidora de material audiovisual desea un programa que
+permita administrar los pagos que se le tienen que hacer a sus clientes  por el
+ dinero recaudado al distribuir su material.
+Para ello se quiere cargar los datos de los diferentes Liciencientes, de  cada
+Licienciente se conoce el codigo,  el nombre, el total a pagarle, idioma  (un
+valor del 0 al 6)  y el pais (hasta 35 valores).
+Conociendo esta informacion, usted debe, a travez de una programa basada  en un
+ menu de opciones lo siguiente:
+
+1.	Cargar los datos de lo licenciantes en un vector de registros,  los datos
+se pueden cargar en forma manual o aleatoria. Los datos se deben  agregar de
+tal forma que vaya quedando ordenadamente por el codigo del licenciente.  NO es
+ valido cargar todo el arreglo y ordenar posteriormente.
+2.	Mostrar el arreglo, a razon de un registro por linea
+3.	Buscar en el vector si existe un licenciante con un codigo X,   donde X se
+carga por teclado, si existe incrementar su total en un valor  Y tambien
+ingresado por teclado y mostrar sus datos. Si no existe indicarlo con un mensaje
+4.	Usando el arreglo, determinar  y mostrar el total a pagar por  cada idioma
+y por cada pais. (210 acumuladores). Mostrar todos aquellos valores que  sean
+distintos de cero
+5.	Usando el arreglo, generar un archivo binario con los datos de los
+licenciantes cuyo idioma sea un valor X, donde X se pasa por parametro
+6.	Mostrar el archivo generado en el punto 4
